@@ -1,49 +1,59 @@
-<style > 
-
-
-
-body {
-    font-family: 'Roboto Mono', monospace;
-}
-
-#Title {
-    background-color: darkblue;
-    color: red;
-    padding: 10;
-    text-align: center;
-    font-size: 100%;
-    font-family: 'Roboto Mono', monospace;
-}
-
-#About {
-    width: 500px;
-    text-align: center;
-    background-color: lightgray;
-    position: relative;
-    top: -20;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    padding: 10px;
-    background-color: lightblue;
-    border: solid black 1px;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
+<style > body {
     background-color: gray;
-    min-width: 160px;
-    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0);
-    padding: 12x 16px;
-    z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.jumbotron {
+    background: Url("resource/matagordaPier.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100%;
+    font-family: 'Shadows Into Light', cursive;
 }
+
+.lead {
+    font-size: 200%;
+}
+
+#mainVideo {
+    width: 50%;
+    margin: auto;
+}
+
+.container {
+    padding: 30px;
+}
+
+.card {
+    border-color: black;
+    border-width: thick;
+}
+
+.card-img-top {
+
+    width: 100%;
+    height: 60%;
+
+}
+
+.card-block {
+    margin: 5px;
+}
+
+#appStoreIcon {
+
+    width: 200px;
+
+}
+
+#footer {
+    color: white;
+    background-color: #404040;
+    padding-top: 75px;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
 
 
 </style >
